@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E7BCDE;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-task {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #BB9CC0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #BB9CC0;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.tareas-lista {
+    min-height: 200px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.tarea {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarea button {
+    background-color: #D0A2F7;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.tarea button:hover {
+    background-color: #D0A2F7;
+}
+
+.tarea button.volver {
+    background-color: #7071E8;
+}
+
+.tarea button.volver:hover {
+    background-color: #7071E8;
+}
+
+.tarea button.completar {
+    background-color: #BB9CC0;
+}
+
+.tarea button.completar:hover {
+    background-color: #BB9CC0;
+}
